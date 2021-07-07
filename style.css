@@ -390,6 +390,15 @@ section#services .container p{
 
 
 
+/* <-----------------Devider Section-------------> */
+
+
+
+section#devider{
+    height: 150px;
+    background-color: var(--secondary);
+    margin-bottom:50px
+}
 
 
 
