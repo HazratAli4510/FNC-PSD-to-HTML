@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+/* <--------------Container------------> */
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+@media (min-width:1250px){
+    .container{
+        width: 1170px;
+    }
+}
+
+
+
+
+/* <--------------Fonts------------> */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+
+
+
+
+/* <-------------------colors-----------> */
+
+
+
+
+:root{
+    --bg-primary:#1c4671;
+    --primary:#18ba60;
+    --secondary:#777777;
+}
+
+
+
+
+
+/* <------------------Utility Classes-----------> */
+
+
+
+
+.flex{
+    display: flex;
+}
+.item-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+
+
+
+
+
+/* <----------------TopBar------> */
+
+
+
+
+section#header-top{
+    background-color: var(--bg-primary);
+    padding: 1rem 0;
+    border-bottom: 1px solid #496b8d;
+}
+section#header-top i{
+    color: white;
+    margin-right: 0.5rem;
+}
+section#header-top span{
+    color: white;
+    font-size: 12pt;
+}
+section#header-top span a{
+    text-decoration: none;
+    color: white;
+    margin-right: 1rem;
+}
+section#header-top .container .devider{
+    margin-right: 1rem;
+    color: #496b8d;
+}
+
+
+
+
+
+/* <----------------NavBar------> */
+
+
+
+nav{
+    background-color: var(--bg-primary);
+    height: 90px;
+    position: sticky;
+    top: 0;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14pt;
+    margin-right: 1rem;
+    text-transform: uppercase;
+}
+nav button{
+    outline: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+nav i{
+    color: white;
+    font-size: 14pt;
+    margin-left: -50px;
+    color: black;
+}
+nav input{
+    height: 20pt;
+    display: inline-block;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 0.5rem;
+
+    transition: 0.3s all ease;
+    -webkit-transition: 0.3s all ease;
+    -moz-transition: 0.3s all ease;
+    -ms-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    width: 130px;
+}
+nav form{
+    display: inline-block;
+}
+
+
+
+
+/* <-------------------Hero Area----------------------> */
+header{
+    height: 634px;
+    background-color: var(--bg-primary);
+}
+header .container h1{
+    font-size: 55px;
+    color: white;
+    padding-top: 10rem;
+}
+header .container p{
+    color: white;
+    width: 50%;
+    font-weight: 500;
+    line-height: 1.5em;
+    margin: 10px 0;
+}
+header .container .flex a{
+    padding:0.8rem 1.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+    margin: 2rem 0;
+    margin-right: 2rem;
+    text-decoration: none;
+    transition: 0.3s all ease;
+    -webkit-transition: 0.3s all ease;
+    -moz-transition: 0.3s all ease;
+    -ms-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+}
+header .container .flex a:first-child{
+    background-color: var(--primary);
+    border: 3px solid transparent;
+}
+header .container .flex a:first-child:hover{
+    background: none;
+    border: 3px solid var(--primary);
+}
+header .container .flex a:last-child{
+    border: 3px solid var(--primary);
+}
+header .container .flex a:last-child:hover{
+    background-color: var(--primary);
+}
+header button{
+    margin: 0 auto;
+    display: block;
+    color: white;
+    background-color: none;
+    border: none;
+    outline: none;
+    transition: 0.3s all ease;
+    -webkit-transition: 0.3s all ease;
+    -moz-transition: 0.3s all ease;
+    -ms-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+}
+
+header .scroll-button button{
+    background: none;
+    outline: none;
+    background-color:transparent;
+    position: relative;
+    top: 40px;
+    cursor: pointer;
+}
+header .scroll-button button:hover{
+    top: 50px;
+}
+header .scroll-button button img{
+   width:60px;
+   height: 80px;
+}
+
+
+
+
+
+/* <------------about----------> */
+
+
+section#about{
+    padding: 100px 0;
+}
+section#about .container > h2{
+    text-align: center;
+    font-size: 30pt;
+}
+section#about .container > span{
+    display:block;
+    height: 6px;
+    width:50px;
+    background-color: var(--primary);
+    margin: 1rem auto;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+section#about .container p{
+    font-family: 'Lato', sans-serif;
+    color: var(--secondary);
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.5em;
+}
+
+section#about .container .boxes{
+    margin-right: 0.7rem;
+    margin-left: 0.7rem;
+    margin-top: 3rem;
+}
+section#about .container .boxes h2{
+    font-weight: 600;
+    font-size: 21px;
+    text-align: center;
+    color: #252525;
+    margin: 1rem 0;
+}
+section#about .container .boxes span{
+    display:block;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 14pt;
+    color: var(--secondary);
+}
+
+
+
+
+
+
+
+
+
+
+
+
