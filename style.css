@@ -295,6 +295,11 @@ section#about .container .boxes span{
 
 
 /* <------------------anylitics------------------> */
+
+
+
+
+
 section#anylitics{
     height: 160px;
     background-color: var(--bg-primary);
@@ -322,6 +327,66 @@ section#anylitics .container  .box summary{
 
 
 
+
+
+
+/* <------------------Services------------------> */
+
+
+
+
+section#services{
+    padding: 100px;
+}
+section#services > h1{
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+}
+section#services span{
+    display: block;
+    width: 55px;
+    height: 7px;
+    background-color: var(--primary);
+    margin: 0rem auto;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+section#services .container .first-line-box div,section#services .container .second-line-box div{
+    width: 370px;
+    height: 300px;
+    background-color: #f7f7f7;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    padding: 3rem 1rem;
+    box-shadow: 0 0 2px grey;
+}
+section#services .container i{
+    font-size: 40pt;
+    color: var(--primary);
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+section#services .container h2{
+    font-weight: 500;
+    font-size: 20pt;
+    text-align: center;
+    margin: 1rem 0;
+}
+section#services .container p{
+    font-family: 'Lato', sans-serif;
+    font-size: 14pt;
+    color: var(--secondary);
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5em;
+}
 
 
 
