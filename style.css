@@ -527,7 +527,7 @@ section#main-foot{
     background-color: #29282e;
 }
 section#main-foot .container{
-    justify-content: center;
+    justify-content: space-between;
 }
 section#main-foot .container >div > h1{
     font-weight: 600;
@@ -584,13 +584,64 @@ section#main-foot .container .box-2 i{
 }
 section#main-foot .container .box-2  a{
     font-family: 'Lato', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     color: #a7a0a0;
     text-decoration: none;
     margin-right: 1rem;
 }
-
-
+section#main-foot .container .box-3{
+    flex-basis: 300px;
+    margin-right: 1rem;
+}
+section#main-foot .container .box-3 i{
+    color: #fefffe;
+    font-size: 14pt;
+}
+section#main-foot .container .box-3 a{
+    text-decoration: none;
+    color: #fefffe;
+}
+section#main-foot .container .box-3 p{
+    font-family: 'Lato', sans-serif;
+    color: #737373;
+    line-height: 1.5em;
+    font-size: 14pt;
+    margin-bottom: 1rem;
+}
+section#main-foot .container .box-4{
+    flex-basis: 270px;
+    margin-left: 1rem;
+}
+section#main-foot .container .box-4 input{
+    display: block;
+    background-color:#343339;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: white;
+    width: 100%;
+}
+section#main-foot .container .box-4 button{
+    background-color: var(--primary);
+    outline: none;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 1rem 0;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    cursor: pointer;
+}
 
 
 
