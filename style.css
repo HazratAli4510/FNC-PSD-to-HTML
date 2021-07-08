@@ -436,8 +436,10 @@ section#news .container {
 section#news .container .box{
     max-width: 370px;
     cursor: pointer;
-    box-shadow: 0 0 10px gray;
-
+    box-shadow: 0 0 1px 0px grey;
+}
+section#news .container .box:hover{
+    box-shadow: 0 0 3px 0px grey;
 }
 section#news .container .box img{
     width: 100%;
@@ -641,10 +643,27 @@ section#main-foot .container .box-4 button{
     text-transform: uppercase;
     font-size: 1rem;
     cursor: pointer;
+    font-weight: 500;
 }
 
 
 
+/* <------------------footer-bottom------------> */
+section#footer-bottom{
+    background-color: #212025;
 
+}
+section#footer-bottom p{
+    color: var(--secondary);
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 2rem;
+}
+section#footer-bottom a{
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: bold;
+}
 
 
