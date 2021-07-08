@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    box-sizing: border-box;    
+    box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
@@ -499,7 +499,8 @@ section#news>a{
 
 section#footer-top{
     background-color: #29282e;
-    padding: 2rem 0;
+    padding: 1rem 0;
+    border-bottom: 2px solid #25242a;
 }
 section#footer-top .flex span{
     font-size: 2rem;
@@ -521,6 +522,77 @@ section#footer-top .flex p:last-child{
     color: var(--secondary);
     font-family: 'Lato', sans-serif;
 }
+section#main-foot{
+    /* height: 395px; */
+    background-color: #29282e;
+}
+section#main-foot .container{
+    justify-content: center;
+}
+section#main-foot .container >div > h1{
+    font-weight: 600;
+    font-size: 20pt;
+    color: white;
+    margin-top: 100px;
+}
+section#main-foot .container >div span{
+    display: block;
+    height: 5px;
+    width: 60px;
+    background-color: #47464d;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+    margin: 3rem 0;
+}
+section#main-foot .container .box-1{
+    width: 270px;
+    margin-right: 2rem;
+}
+section#main-foot .container .box-1 p{
+    font-family: 'Lato', sans-serif;
+    font-size: 14pt;
+    color: var(--secondary);
+}
+section#main-foot .container .box-1 .social-icons i{
+    font-size: 16pt;
+    color: white;
+    background-color: #343339;
+    width:40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 20px 5px;
+    cursor: pointer;
+}
+section#main-foot .container .box-2{
+    flex-basis: 250px;
+    margin-right: 1rem;
+}
+section#main-foot .container .box-2 i{
+    color: #868686;
+    font-size: 12pt;
+    margin-right: 1rem;
+    margin-bottom: 1.5rem;
+}
+section#main-foot .container .box-2  a{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #a7a0a0;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+
+
+
 
 
 
