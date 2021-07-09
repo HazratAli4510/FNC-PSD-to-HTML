@@ -51,6 +51,7 @@
 
 .flex{
     display: flex;
+    flex-wrap:wrap;
 }
 .item-center{
     align-items: center;
