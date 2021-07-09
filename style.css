@@ -275,6 +275,7 @@ section#about .container .boxes{
     margin-right: 0.7rem;
     margin-left: 0.7rem;
     margin-top: 3rem;
+    width: 370px;
 }
 section#about .container .boxes h2{
     font-weight: 600;
